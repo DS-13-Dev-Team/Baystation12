@@ -85,14 +85,14 @@
 	economic_modifier = 16
 
 	min_skill = list(SKILL_CONSTRUCTION = SKILL_EXPERT,
-					 	SKILL_ELECTRICAL = SKILL_EXPERT,
-				     	SKILL_ENGINES = SKILL_EXPERT,
-				    	 SKILL_DEVICES = SKILL_EXPERT)
+						SKILL_ELECTRICAL = SKILL_EXPERT,
+						SKILL_ENGINES = SKILL_EXPERT,
+						SKILL_DEVICES = SKILL_EXPERT)
 
 	max_skill = list((SKILL_CONSTRUCTION = SKILL_MAX,
-						 SKILL_ELECTRICAL = SKILL_MAX,
-				    	 SKILL_ENGINES = SKILL_MAX,
-				    	 SKILL_DEVICES = SKILL_MAX)
+						SKILL_ELECTRICAL = SKILL_MAX,
+						SKILL_ENGINES = SKILL_MAX,
+						SKILL_DEVICES = SKILL_MAX)
 	                 
 	skill_points = 22
 
@@ -129,13 +129,13 @@
 				  access_emergency_storage, access_external_airlocks)
 	
 	min_skill = list(SKILL_CONSTRUCTION = SKILL_BASIC,
-						 SKILL_ELECTRICAL = SKILL_BASIC,
-				    	 SKILL_ENGINES = SKILL_BASIC,
-				    	 SKILL_DEVICES = SKILL_BASIC)
+						SKILL_ELECTRICAL = SKILL_BASIC,
+						SKILL_ENGINES = SKILL_BASIC,
+						SKILL_DEVICES = SKILL_BASIC)
 
 	max_skill = list((SKILL_CONSTRUCTION = SKILL_EXPERT,
-						 SKILL_ELECTRICAL = SKILL_EXPERT,
-				    	 SKILL_ENGINES = SKILL_EXPERT,
-				    	 SKILL_DEVICES = SKILL_EXPERT)
+						SKILL_ELECTRICAL = SKILL_EXPERT,
+						SKILL_ENGINES = SKILL_EXPERT,
+						SKILL_DEVICES = SKILL_EXPERT)
 	
 	outfit_type = /decl/hierarchy/outfit/job/engineering/DStechengineer
