@@ -163,3 +163,46 @@
 	                 SKILL_FORENSICS = SKILL_ADEPT)
 	                 
 	skill_points = 22
+	
+	
+	
+/datum/job/DSplanetsidecolonysecuritychief //security chief for PSEC/colony security.
+	title = "PSEC Security Chief"
+	department = "Security"
+	department_flag = SEC
+
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the CEC"
+	selection_color = "#601c1c"
+
+	access = list(access_security, access_mining) //PSEC HQ should require both.
+	minimal_player_age = 7
+	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecuritychief	
+	
+	min_skill = list(SKILL_COMBAT = SKILL_EXPERT,
+				     SKILL_WEAPONS = SKILL_ADEPT
+				     SKILL_FORENSICS = SKILL_ADEPT)
+	                 
+	skill_points = 26
+	
+	
+/datum/job/DSplanetsidecolonysecurityofficer //security officer that spawns on colony.
+	title = "PSEC Security Officer"
+	department = "Security"
+	department_flag = SEC
+
+	total_positions = 4
+	spawn_positions = 4
+	supervisors = "the PSEC Security Chief"
+	selection_color = "#601c1c"
+
+	access = list(access_security, access_mining) //PSEC HQ should require both mining and security access.
+	minimal_player_age = 7
+	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecurityofficer	
+	
+	min_skill = list(SKILL_COMBAT = SKILL_ADEPT,
+				     SKILL_WEAPONS = SKILL_BASIC
+				     SKILL_FORENSICS = SKILL_BASIC)
+	                 
+	skill_points = 18
