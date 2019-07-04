@@ -176,7 +176,7 @@
 	supervisors = "the CEC"
 	selection_color = "#601c1c"
 
-	access = list(access_security, access_mining) //PSEC HQ should require both.
+	access = list(access_security, access_mining_station) //PSEC HQ should require access_security and access_mining_station.
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecuritychief	
 	
@@ -197,7 +197,7 @@
 	supervisors = "the PSEC Security Chief"
 	selection_color = "#601c1c"
 
-	access = list(access_security, access_mining) //PSEC HQ should require both mining and security access.
+	access = list(access_security, access_mining_station) //PSEC HQ should require access_security and access_mining_station.
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecurityofficer	
 	
