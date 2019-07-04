@@ -107,11 +107,11 @@
 	
 	
 	min_skill = list(SKILL_COMBAT = SKILL_ADEPT,
-				     SKILL_WEAPONS = SKILL_ADEPT)
+						SKILL_WEAPONS = SKILL_ADEPT)
 
 	max_skill = list(SKILL_COMBAT = SKILL_MAX,
-					 SKILL_WEAPONS = SKILL_MAX,
-	                 SKILL_FORENSICS = SKILL_ADEPT)
+						SKILL_WEAPONS = SKILL_MAX,
+						SKILL_FORENSICS = SKILL_ADEPT)
 	                 
 	skill_points = 30
 	
@@ -132,11 +132,11 @@
 	outfit_type = /decl/hierarchy/outfit/job/security/DSsecuritysergeant
 	
 	min_skill = list(SKILL_COMBAT = SKILL_BASIC,
-				     SKILL_WEAPONS = SKILL_BASIC)
+						SKILL_WEAPONS = SKILL_BASIC)
 
 	max_skill = list(SKILL_COMBAT = SKILL_EXPERT,
-					 SKILL_WEAPONS = SKILL_EXPERT,
-	                 SKILL_FORENSICS = SKILL_EXPERT)
+						SKILL_WEAPONS = SKILL_EXPERT,
+						SKILL_FORENSICS = SKILL_EXPERT)
 	                 
 	skill_points = 26
 	
@@ -155,12 +155,12 @@
 	outfit_type = /decl/hierarchy/outfit/job/security/DSsecurityofficer	
 	
 	min_skill = list(SKILL_COMBAT = SKILL_BASIC,
-				     SKILL_WEAPONS = SKILL_BASIC
-				     SKILL_FORENSICS = SKILL_BASIC)
+						SKILL_WEAPONS = SKILL_BASIC
+						SKILL_FORENSICS = SKILL_BASIC)
 
 	max_skill = list(SKILL_COMBAT = SKILL_EXPERT,
-					 SKILL_WEAPONS = SKILL_ADEPT,
-	                 SKILL_FORENSICS = SKILL_ADEPT)
+						SKILL_WEAPONS = SKILL_ADEPT,
+						SKILL_FORENSICS = SKILL_ADEPT)
 	                 
 	skill_points = 22
 	
@@ -181,8 +181,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecuritychief	
 	
 	min_skill = list(SKILL_COMBAT = SKILL_EXPERT,
-				     SKILL_WEAPONS = SKILL_ADEPT
-				     SKILL_FORENSICS = SKILL_ADEPT)
+						SKILL_WEAPONS = SKILL_ADEPT
+						SKILL_FORENSICS = SKILL_ADEPT)
 	                 
 	skill_points = 26
 	
@@ -202,7 +202,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecurityofficer	
 	
 	min_skill = list(SKILL_COMBAT = SKILL_ADEPT,
-				     SKILL_WEAPONS = SKILL_BASIC
-				     SKILL_FORENSICS = SKILL_BASIC)
+						SKILL_WEAPONS = SKILL_BASIC
+						SKILL_FORENSICS = SKILL_BASIC)
 	                 
 	skill_points = 18
