@@ -72,3 +72,94 @@
 	minimal_access = list(access_security, access_eva, access_sec_doors, access_brig, access_maint_tunnels, access_external_airlocks)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/officer
+	
+	
+	
+	
+	
+	
+	
+	
+	
+////////////////////////////////////////
+///DEAD SPACE SECURITY.DM ROLES BELOW///
+////////////////////////////////////////
+	
+
+
+/datum/job/DSchiefsecurityofficer
+	title = "Chief Security Officer"
+	head_position = 1
+	department = "Security"
+	department_flag = SEC|COM
+
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the captain"
+	selection_color = "#8e2929"
+	req_admin_notify = 1
+
+	access = list(access_security, access_armory, access_maint_tunnels, 
+		          access_heads, access_hos, access_external_airlocks)
+		          
+	minimal_player_age = 14
+	outfit_type = /decl/hierarchy/outfit/job/security/DSchiefsecurityofficer
+	
+	
+	min_skill = list(SKILL_COMBAT = SKILL_ADEPT,
+				     SKILL_WEAPONS = SKILL_ADEPT)
+
+	max_skill = list(SKILL_COMBAT = SKILL_MAX,
+					 SKILL_WEAPONS = SKILL_MAX,
+	                 SKILL_FORENSICS = SKILL_ADEPT)
+	                 
+	skill_points = 30
+	
+
+/datum/job/DSsecuritysergeant
+	title = "Security Sergeant"
+	department = "Security"
+	department_flag = SEC
+
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the chief security officer"
+	selection_color = "#601c1c"
+	
+	access = list(access_security, access_maint_tunnels, access_external_airlocks)
+		          
+	minimal_player_age = 7
+	outfit_type = /decl/hierarchy/outfit/job/security/DSsecuritysergeant
+	
+	min_skill = list(SKILL_COMBAT = SKILL_BASIC,
+				     SKILL_WEAPONS = SKILL_BASIC)
+
+	max_skill = list(SKILL_COMBAT = SKILL_EXPERT,
+					 SKILL_WEAPONS = SKILL_EXPERT,
+	                 SKILL_FORENSICS = SKILL_EXPERT)
+	                 
+	skill_points = 26
+	
+/datum/job/DSsecurityofficer
+	title = "Security Officer"
+	department = "Security"
+	department_flag = SEC
+
+	total_positions = 4
+	spawn_positions = 4
+	supervisors = "the chief security officer"
+	selection_color = "#601c1c"
+
+	access = list(access_security, access_maint_tunnels, access_external_airlocks)
+	minimal_player_age = 7
+	outfit_type = /decl/hierarchy/outfit/job/security/DSsecurityofficer	
+	
+	min_skill = list(SKILL_COMBAT = SKILL_BASIC,
+				     SKILL_WEAPONS = SKILL_BASIC
+				     SKILL_FORENSICS = SKILL_BASIC)
+
+	max_skill = list(SKILL_COMBAT = SKILL_EXPERT,
+					 SKILL_WEAPONS = SKILL_ADEPT,
+	                 SKILL_FORENSICS = SKILL_ADEPT)
+	                 
+	skill_points = 22
