@@ -124,3 +124,66 @@
 	. = ..()
 	if(.)
 		H.implant_loyalty(H)
+
+
+
+
+
+	
+	
+	
+///////////////////////////////////////
+//DEAD SPACE CIVILLIAN.DM ROLES BELOW//
+///////////////////////////////////////
+
+
+
+/datum/job/DSbartender
+	title = "Bartender"
+	department_flag = CIV
+
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the captain"
+	selection_color = "#2f2f7f"
+	minimal_player_age = 6
+	economic_modifier = 3
+	ideal_character_age = 22
+
+	access = list(access_bar, access_kitchen)
+			            
+	min_skill = list(SKILL_WEAPONS = SKILL_BASIC,
+					 SKILL_COMBAT = SKILL_BASIC,
+	                 SKILL_FINANCE = SKILL_BASIC)
+				     
+	max_skill = list(SKILL_WEAPONS = SKILL_BASIC,
+					 SKILL_COMBAT = SKILL_BASIC,
+	                 SKILL_FINANCE = SKILL_BASIC)
+	                 
+	skill_points = 18
+	outfit_type = /decl/hierarchy/outfit/job/DSbartender
+	
+			
+	
+	/datum/job/DSlinecook
+	title = "Line Cook"
+	department_flag = CIV
+
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the captain"
+	selection_color = "#2f2f7f"
+	minimal_player_age = 6
+	economic_modifier = 3
+	ideal_character_age = 22
+
+	access = list(access_kitchen, access_bar)
+			            
+	min_skill = list(SKILL_WEAPONS = SKILL_BASIC,
+					 SKILL_COMBAT = SKILL_BASIC)
+				     
+	max_skill = list(SKILL_WEAPONS = SKILL_BASIC,
+					 SKILL_COMBAT = SKILL_BASIC)
+	                 
+	skill_points = 18
+	outfit_type = /decl/hierarchy/outfit/job/DSlinecook
