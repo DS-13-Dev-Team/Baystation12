@@ -204,6 +204,28 @@
 	//DEAD SPACE CARGO ROLES
 	
 	
+/datum/job/DSminingdirector
+	title = "Director of Mining"
+	department = "Supply"
+	department_flag = SUP
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the CEC"
+	selection_color = "#515151"
+	economic_modifier = 5
+	access = list(access_heads, access_mining, access_mining_station)
+	minimal_player_age = 3
+	ideal_character_age = 55
+	outfit_type = /decl/hierarchy/outfit/job/cargo/DSminingdirector
+	
+	min_skill = list(SKILL_BUREAUCRACY = SKILL_EXPERT,
+				     SKILL_FINANCE = SKILL_EXPERT)
+
+	skill_points = 26	
+	
+	
+	
+	
 /datum/job/DSsupplyofficer
 	title = "Supply Officer"
 	department = "Supply"
