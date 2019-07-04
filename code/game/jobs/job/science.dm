@@ -106,11 +106,11 @@
 	
 
 	min_skill = list(SKILL_DEVICES = SKILL_EXPERT,
-				     SKILL_SCIENCE = SKILL_EXPERT)
+	SKILL_SCIENCE = SKILL_EXPERT)
 
 	max_skill = list(SKILL_WEAPONS = SKILL_ADEPT,
-					 SKILL_DEVICES = SKILL_MAX,
-	                 SKILL_SCIENCE = SKILL_MAX)
+	SKILL_DEVICES = SKILL_MAX,
+	SKILL_SCIENCE = SKILL_MAX)
 	skill_points = 30
 	
 
@@ -130,10 +130,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/science/DSresearchassistant
 
 	min_skill = list(SKILL_DEVICES = SKILL_BASIC,
-				     SKILL_SCIENCE = SKILL_BASIC)
+	SKILL_SCIENCE = SKILL_BASIC)
 
 	max_skill = list(SKILL_WEAPONS = SKILL_BASIC,
-					 SKILL_DEVICES = SKILL_ADEPT,
-	                 SKILL_SCIENCE = SKILL_ADEPT)
+	SKILL_DEVICES = SKILL_ADEPT,
+	SKILL_SCIENCE = SKILL_ADEPT)
 	                 
 	skill_points = 20
