@@ -123,6 +123,8 @@
 	
 	ideal_character_age = 30
 	
+	skill_points = 18
+	
 	access = list(access_engine, access_tech_storage, access_maint_tunnels, 
 				  access_emergency_storage, access_external_airlocks)
 	
