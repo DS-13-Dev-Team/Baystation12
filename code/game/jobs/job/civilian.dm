@@ -144,58 +144,26 @@
 /datum/job/DSbartender
 	title = "Bartender"
 	department_flag = CIV
-
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
 	selection_color = "#2f2f7f"
 	minimal_player_age = 6
-	economic_modifier = 3
 	ideal_character_age = 22
-
 	access = list(access_bar, access_kitchen)
-
-	min_skill = list(SKILL_WEAPONS = SKILL_BASIC,
-					 SKILL_COMBAT = SKILL_BASIC,
-	                 SKILL_FINANCE = SKILL_BASIC)
-
-	max_skill = list(SKILL_WEAPONS = SKILL_BASIC,
-					 SKILL_COMBAT = SKILL_BASIC,
-	                 SKILL_FINANCE = SKILL_BASIC)
-
-	skill_points = 18
-
-
 	outfit_type = /decl/hierarchy/outfit/job/DSbartender
 
 
-
-
-
-
-	/datum/job/DSlinecook
+/datum/job/DSlinecook
 	title = "Line Cook"
 	department_flag = CIV
-
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
 	selection_color = "#2f2f7f"
 	minimal_player_age = 6
-	economic_modifier = 3
 	ideal_character_age = 22
-
 	access = list(access_kitchen, access_bar)
-
-	min_skill = list(SKILL_WEAPONS = SKILL_BASIC,
-					 SKILL_COMBAT = SKILL_BASIC)
-
-	max_skill = list(SKILL_WEAPONS = SKILL_BASIC,
-					 SKILL_COMBAT = SKILL_BASIC)
-
-	skill_points = 18
-
-
 	outfit_type = /decl/hierarchy/outfit/job/DSlinecook
 	
 	
@@ -212,16 +180,10 @@
 	spawn_positions = 1
 	supervisors = "the CEC"
 	selection_color = "#515151"
-	economic_modifier = 5
 	access = list(access_heads, access_mining, access_mining_station)
 	minimal_player_age = 3
 	ideal_character_age = 55
 	outfit_type = /decl/hierarchy/outfit/job/cargo/DSminingdirector
-	
-	min_skill = list(SKILL_BUREAUCRACY = SKILL_EXPERT,
-				     SKILL_FINANCE = SKILL_EXPERT)
-
-	skill_points = 26	
 	
 	
 	
@@ -234,18 +196,11 @@
 	spawn_positions = 1
 	supervisors = "the captain"
 	selection_color = "#515151"
-	economic_modifier = 5
 	access = list(access_heads, access_cargo)
 	minimal_player_age = 3
 	ideal_character_age = 40
 	outfit_type = /decl/hierarchy/outfit/job/cargo/DSsupplyofficer
 	
-	min_skill = list(SKILL_HAULING = SKILL_EXPERT,
-					 SKILL_EVA = SKILL_EXPERT,
-				     SKILL_BUREAUCRACY = SKILL_ADEPT,
-				     SKILL_FINANCE = SKILL_ADEPT)
-
-	skill_points = 22
 	
 
 /datum/job/DScargoserviceofficer
@@ -257,17 +212,7 @@
 	supervisors = "the supply officer"
 	selection_color = "#515151"
 	access = list(access_cargo)
-
 	outfit_type = /decl/hierarchy/outfit/job/cargo/DScargoserviceofficer
-	
-	min_skill = list(SKILL_HAULING = SKILL_ADEPT,
-					 SKILL_EVA = SKILL_ADEPT,
-				     SKILL_BUREAUCRACY = SKILL_BASIC,
-				     SKILL_FINANCE = SKILL_BASIC)
-
-	skill_points = 26
-
-
 
 
 /datum/job/DSgravitationaltetheroperator
@@ -278,14 +223,10 @@
 	spawn_positions = 4
 	supervisors = "the mining foreman and the captain"
 	selection_color = "#515151"
-	economic_modifier = 5
 	access = list(access_mining, access_mining_station)
-
 	outfit_type = /decl/hierarchy/outfit/job/cargo/DSgravitationaltetheroperator
-	
-	skill_points = 16
-	
-	
+
+
 /datum/job/DSminingforeman
 	title = "Mining Foreman"
 	department = "Supply"
@@ -294,13 +235,9 @@
 	spawn_positions = 1
 	supervisors = "the captain"
 	selection_color = "#515151"
-	economic_modifier = 5
 	access = list(access_heads, access_mining, access_mining_station) //access_mining_station is used to define access to the colony, so colony doors should be checking for this one, access_mining should be used to control the shuttle to get up and down from the colony.
-
 	outfit_type = /decl/hierarchy/outfit/job/cargo/DSminingforeman
-	
-	skill_points = 20	
-	
+
 	
 
 /datum/job/DScolonist
@@ -311,9 +248,5 @@
 	spawn_positions = 20
 	supervisors = "the CEC"
 	selection_color = "#515151"
-	economic_modifier = 2
 	access = list(access_mining_station) //
-
 	outfit_type = /decl/hierarchy/outfit/job/cargo/DScolonist
-	
-	skill_points = 12
