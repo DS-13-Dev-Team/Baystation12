@@ -82,7 +82,6 @@
 	supervisors = "the captain"
 	selection_color = "#7f6e2c"
 	req_admin_notify = 1
-	economic_modifier = 16
 	ideal_character_age = 45
 
 
