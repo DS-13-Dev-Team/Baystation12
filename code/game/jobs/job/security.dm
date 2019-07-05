@@ -104,17 +104,8 @@
 		          
 	minimal_player_age = 14
 	outfit_type = /decl/hierarchy/outfit/job/security/DSchiefsecurityofficer
-	
-	
-	min_skill = list(SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_ADEPT)
 
-	max_skill = list(SKILL_COMBAT = SKILL_MAX,
-					SKILL_WEAPONS = SKILL_MAX,
-					SKILL_FORENSICS = SKILL_ADEPT)
-	                 
-	skill_points = 30
-	
+
 
 /datum/job/DSsecuritysergeant
 	title = "Security Sergeant"
@@ -131,14 +122,7 @@
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/DSsecuritysergeant
 	
-	min_skill = list(SKILL_COMBAT = SKILL_BASIC,
-					SKILL_WEAPONS = SKILL_BASIC)
-
-	max_skill = list(SKILL_COMBAT = SKILL_EXPERT,
-					SKILL_WEAPONS = SKILL_EXPERT,
-					SKILL_FORENSICS = SKILL_EXPERT)
-	                 
-	skill_points = 26
+	
 	
 /datum/job/DSsecurityofficer
 	title = "Security Officer"
@@ -152,18 +136,7 @@
 
 	access = list(access_security, access_maint_tunnels, access_external_airlocks)
 	minimal_player_age = 7
-	outfit_type = /decl/hierarchy/outfit/job/security/DSsecurityofficer	
-	
-	min_skill = list(SKILL_COMBAT = SKILL_BASIC,
-					SKILL_WEAPONS = SKILL_BASIC
-					SKILL_FORENSICS = SKILL_BASIC)
-
-	max_skill = list(SKILL_COMBAT = SKILL_EXPERT,
-					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_FORENSICS = SKILL_ADEPT)
-	                 
-	skill_points = 22
-	
+	outfit_type = /decl/hierarchy/outfit/job/security/DSsecurityofficer		
 	
 	
 /datum/job/DSplanetsidecolonysecuritychief //security chief for PSEC/colony security.
@@ -180,11 +153,6 @@
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecuritychief	
 	
-	min_skill = list(SKILL_COMBAT = SKILL_EXPERT,
-					SKILL_WEAPONS = SKILL_ADEPT
-					SKILL_FORENSICS = SKILL_ADEPT)
-	                 
-	skill_points = 26
 	
 	
 /datum/job/DSplanetsidecolonysecurityofficer //security officer that spawns on colony.
@@ -200,9 +168,3 @@
 	access = list(access_security, access_mining_station) //PSEC HQ should require access_security and access_mining_station.
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/DSplanetsidecolonysecurityofficer	
-	
-	min_skill = list(SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_BASIC
-					SKILL_FORENSICS = SKILL_BASIC)
-	                 
-	skill_points = 18
