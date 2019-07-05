@@ -83,19 +83,6 @@
 	selection_color = "#7f6e2c"
 	req_admin_notify = 1
 	economic_modifier = 16
-
-	min_skill = list(SKILL_CONSTRUCTION = SKILL_EXPERT,
-						SKILL_ELECTRICAL = SKILL_EXPERT,
-						SKILL_ENGINES = SKILL_EXPERT,
-						SKILL_DEVICES = SKILL_EXPERT)
-
-	max_skill = list((SKILL_CONSTRUCTION = SKILL_MAX,
-						SKILL_ELECTRICAL = SKILL_MAX,
-						SKILL_ENGINES = SKILL_MAX,
-						SKILL_DEVICES = SKILL_MAX)
-	                 
-	skill_points = 22
-
 	ideal_character_age = 45
 
 
@@ -118,24 +105,11 @@
 	spawn_positions = 4
 	supervisors = "the chief engineer"
 	selection_color = "#5b4d20"
-	economic_modifier = 7
 	minimal_player_age = 7
 	
 	ideal_character_age = 30
-	
-	skill_points = 18
-	
+		
 	access = list(access_engine, access_tech_storage, access_maint_tunnels, 
 				  access_emergency_storage, access_external_airlocks)
-	
-	min_skill = list(SKILL_CONSTRUCTION = SKILL_BASIC,
-						SKILL_ELECTRICAL = SKILL_BASIC,
-						SKILL_ENGINES = SKILL_BASIC,
-						SKILL_DEVICES = SKILL_BASIC)
-
-	max_skill = list((SKILL_CONSTRUCTION = SKILL_EXPERT,
-						SKILL_ELECTRICAL = SKILL_EXPERT,
-						SKILL_ENGINES = SKILL_EXPERT,
-						SKILL_DEVICES = SKILL_EXPERT)
 	
 	outfit_type = /decl/hierarchy/outfit/job/engineering/DStechengineer
