@@ -95,7 +95,6 @@
 	supervisors = "the captain"
 	selection_color = "#ad6bad"
 	req_admin_notify = 1
-	economic_modifier = 15
 	
 	access = list(access_heads, access_medical, access_morgue, access_surgery, access_research)
 			            
@@ -103,15 +102,6 @@
 	ideal_character_age = 50
 	
 	outfit_type = /decl/hierarchy/outfit/job/science/DSchiefscienceofficer
-	
-
-	min_skill = list(SKILL_DEVICES = SKILL_EXPERT,
-	SKILL_SCIENCE = SKILL_EXPERT)
-
-	max_skill = list(SKILL_WEAPONS = SKILL_ADEPT,
-	SKILL_DEVICES = SKILL_MAX,
-	SKILL_SCIENCE = SKILL_MAX)
-	skill_points = 30
 	
 
 /datum/job/DSresearchassistant
@@ -128,12 +118,3 @@
 	
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/science/DSresearchassistant
-
-	min_skill = list(SKILL_DEVICES = SKILL_BASIC,
-	SKILL_SCIENCE = SKILL_BASIC)
-
-	max_skill = list(SKILL_WEAPONS = SKILL_BASIC,
-	SKILL_DEVICES = SKILL_ADEPT,
-	SKILL_SCIENCE = SKILL_ADEPT)
-	                 
-	skill_points = 20
