@@ -113,7 +113,6 @@
 	spawn_positions = 4
 	supervisors = "the chief science officer"
 	selection_color = "#633d63"
-	economic_modifier = 7
 	access = list(access_medical, access_morgue, access_research)
 	
 	minimal_player_age = 7
